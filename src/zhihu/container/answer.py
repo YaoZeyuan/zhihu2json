@@ -32,7 +32,7 @@ class Answer(object):
         self.comment_count = 0
 
         # 标志位
-        
+
         # 是否已被知乎隐藏
         self.is_hidden = False
 
