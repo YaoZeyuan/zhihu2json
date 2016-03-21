@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from src.zhihu.container.author import Author
+from src.zhihu.author import Author
 
 
 class Article(object):
