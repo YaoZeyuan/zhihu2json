@@ -4,35 +4,42 @@ class Author(object):
         # 用户名
         self.name = u''
 
-        # 头像
-        self.logo = u''
+        # 头像图片id
+        self.avatar_id = u''
 
         # 签名
         self.bio = u''
 
-        # 用户id/md5值（可用于唯一确定用户身份）
-        self.id = u''
+        # 用户hash值（可用于唯一确定用户身份）
+        self.hash = u''
 
         # 用户个性域名（可以被用户自由修改）
         self.slug = u''
+
+        # 用户描述
+        self.description = u''
         return
 
     def set_name(self, name):
         self.name = name
         return
 
-    def set_logo(self, logo):
-        self.logo = logo
+    def set_avatar_id(self, avatar_id):
+        self.avatar_id = avatar_id
         return
 
     def set_bio(self, bio):
         self.bio = bio
         return
 
-    def set_id(self, id):
-        self.id = id
+    def set_hash(self, hash):
+        self.hash = hash
         return
 
     def set_slug(self, slug):
         self.slug = slug
+        return
+
+    def set_description(self, description):
+        self.description = description
         return
