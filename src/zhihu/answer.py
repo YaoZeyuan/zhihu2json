@@ -44,6 +44,7 @@ class Answer(object):
 
     def set_question_id(self, question_id):
         self.question_id = question_id
+
         return
 
     def set_answer_id(self, answer_id):
