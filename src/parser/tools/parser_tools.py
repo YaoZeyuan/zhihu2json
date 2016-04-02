@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
-
-from src.tools.extra_tools import ExtraTools
+import datetime
 
 
 class ParserTools(object):
@@ -59,8 +58,22 @@ class ParserTools(object):
 
     @staticmethod
     def parse_date(date='1357-08-12'):
-        if u'昨天' in date:
-            return ExtraTools.get_yesterday()
+        if u':' in date:
+            if u'昨天' in date:
+                return ParserTools.get_yesterday()
+            else:
+                return ParserTools.get_today()
         if u'今天' in date:
-            return ExtraTools.get_today()
+            return ParserTools.get_today()
         return ParserTools.match_content(r'\d{4}-\d{2}-\d{2}', date, '1357-08-12')  # 一三五七八十腊，三十一天永不差！
+
+    @staticmethod
+    def get_today():
+        return datetime.date.today().isoformat()
+
+    @staticmethod
+    def get_yesterday():
+        today = datetime.date.today()
+        one = datetime.timedelta(days=1)
+        yesterday = today - one
+        return yesterday.isoformat()

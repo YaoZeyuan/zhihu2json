@@ -1,9 +1,16 @@
 # -*- coding: utf-8 -*-
+from src.question import QuestionParser
+from src.zhihu_object.question import Question
+
+
 class Parse(object):
     def __init__(self):
         return
 
     def question(self, content):
+        question = Question()
+        parser = QuestionParser(content)
+        parser.get_question_info_list()
         return
 
     def answer(self, content):
