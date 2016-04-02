@@ -41,10 +41,10 @@ class Answer(object):
 
         # 是否允许转载
         self.is_copyable = True
+        return
 
     def set_question_id(self, question_id):
         self.question_id = question_id
-
         return
 
     def set_answer_id(self, answer_id):
