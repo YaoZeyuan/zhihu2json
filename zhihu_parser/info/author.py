@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from src.lib.zhihu_parser.tools.parser_tools import ParserTools
+from zhihu import ParserTools
 from src.tools.debug import Debug
 
 

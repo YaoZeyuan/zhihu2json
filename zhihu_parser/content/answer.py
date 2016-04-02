@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from src.lib.zhihu_parser.content.author import Author
-from src.lib.zhihu_parser.tools.parser_tools import ParserTools
-from src.tools.debug import Debug
+from zhihu_parser.content.author import Author
+from zhihu_parser.tools.parser_tools import ParserTools
+from zhihu_parser.tools.debug import Debug
 
 
 class Answer(ParserTools):
