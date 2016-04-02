@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-from zhihu_parser.content.author import Author
+from zhihu_parser.content.parse_author import ParseAuthor
 from zhihu_parser.tools.parser_tools import ParserTools
 from zhihu_parser.tools.debug import Debug
 
 
-class Answer(ParserTools):
+class ParseAnswer(ParserTools):
     def __init__(self, dom=None):
         self.set_dom(dom)
-        self.author_parser = Author()
+        self.author_parser = ParseAuthor()
         return
 
     @staticmethod

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from zhihu import ParserTools
-from src.tools.debug import Debug
+from zhihu_parser.tools.parser_tools import ParserTools
+from zhihu_parser.tools.debug import Debug
 
 
-class AuthorInfo(ParserTools):
+class ParseAuthorInfo(ParserTools):
     u"""
     使用详情页面进行解析
     """

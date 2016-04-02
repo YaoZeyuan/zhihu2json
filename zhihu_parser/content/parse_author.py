@@ -3,7 +3,7 @@ from src.lib.zhihu_parser.tools.parser_tools import ParserTools
 from src.tools.debug import Debug
 
 
-class Author(ParserTools):
+class ParseAuthor(ParserTools):
     """
     实践一把《代码整洁之道》的做法，以后函数尽量控制在5行之内
     """

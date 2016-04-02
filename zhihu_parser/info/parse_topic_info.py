@@ -3,7 +3,7 @@ from src.lib.zhihu_parser.tools.parser_tools import ParserTools
 from src.tools.debug import Debug
 
 
-class TopicInfo(ParserTools):
+class ParseTopicInfo(ParserTools):
     def __init__(self, dom=None):
         self.set_dom(dom)
         return

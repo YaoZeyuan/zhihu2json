@@ -3,7 +3,7 @@ from src.lib.zhihu_parser.tools.parser_tools import ParserTools
 from src.tools.debug import Debug
 
 
-class CollectionInfo(ParserTools):
+class ParseCollectionInfo(ParserTools):
     u"""
     只解析收藏夹相关信息，暂时不解析创建者相关的信息
     """

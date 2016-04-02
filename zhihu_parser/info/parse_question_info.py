@@ -3,7 +3,7 @@ from src.lib.zhihu_parser.tools.parser_tools import ParserTools
 from src.tools.debug import Debug
 
 
-class QuestionInfo(ParserTools):
+class ParseQuestionInfo(ParserTools):
     """
         特指single_question 和 single_answer中的内容
     """
