@@ -16,7 +16,7 @@ class BaseParser(ParserTools):
     def get_answer_list(self):
         answer_list = []
         for dom in self.get_answer_dom_list():
-            if self.answer_parser.answer_is_hidden(dom):
+            if self.answer_parser.is_hidden(dom):
                 # 当答案被屏蔽时自动跳过
                 continue
             self.answer_parser.set_dom(dom)

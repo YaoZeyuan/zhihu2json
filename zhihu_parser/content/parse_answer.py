@@ -2,27 +2,39 @@
 from zhihu_parser.content.parse_author import ParseAuthor
 from zhihu_parser.tools.parser_tools import ParserTools
 from zhihu_parser.tools.debug import Debug
+from zhihu_parser.zhihu_object.answer import Answer
 
 
 class ParseAnswer(ParserTools):
     def __init__(self, dom=None):
+
+        # 初始化基础属性
+        self.header = None
+        self.body = None
+        self.footer = None
+
         self.set_dom(dom)
         self.author_parser = ParseAuthor()
+        self.answer = Answer()
         return
 
     @staticmethod
-    def answer_is_hidden(dom):
+    def is_hidden(dom):
         # 第二条是为了处理当答案已消失时，直呼仍然将问题显示出来的bug
         return dom.select('div.answer-status') or (not dom.select('textarea.content,div.zm-editable-content'))
 
     def set_dom(self, dom):
-        self.info = {}
-        if dom and not (dom.select('div.answer-status')):
+        self.answer = Answer()
+        if dom and not ParseAnswer.is_hidden(dom):
             self.header = dom.find('div', class_='zm-item-vote-info')
             self.body = dom.find('div', class_='zm-editable-content')
             self.footer = dom.find('div', class_='zm-meta-panel')
             self.author_parser.set_dom(dom)
         return
+
+    def get(self):
+        self.parse_info()
+        return self.answer
 
     def get_info(self):
         answer_info = self.parse_info()
@@ -33,10 +45,11 @@ class ParseAnswer(ParserTools):
         self.parse_header_info()
         self.parse_answer_content()
         self.parse_footer_info()
-        return self.info
+        return
 
     def parse_header_info(self):
-        self.parse_vote_count()
+        vote_count = self.parse_vote_count()
+        self.answer.set_vote_count(vote_count)
         return
 
     def parse_footer_info(self):
@@ -49,9 +62,8 @@ class ParseAnswer(ParserTools):
     def parse_vote_count(self):
         if not self.header:
             Debug.logger.debug(u'答案赞同数未找到')
-            return
-        self.info['agree'] = self.get_attr(self.header, 'data-votecount')
-        return
+            return 0
+        return self.get_attr(self.header, 'data-votecount')
 
     def parse_answer_content(self):
         if not self.body:
