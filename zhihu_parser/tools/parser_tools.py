@@ -57,6 +57,10 @@ class ParserTools(object):
         return dom.get(attr, defaultValue)
 
     @staticmethod
+    def has_attr(dom, attr):
+        return dom.has_attr(attr)
+
+    @staticmethod
     def parse_date(date='1357-08-12'):
         if u':' in date:
             if u'昨天' in date:

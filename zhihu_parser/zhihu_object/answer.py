@@ -13,6 +13,9 @@ class Answer(object):
         # 答案内容(html结构，已经过必要的转换(例如，将<br>替换为<br/>))
         self.content = u''
 
+        # 答案链接
+        self.href = u''
+
         # 所属问题id
         self.question_id = 0
 
@@ -26,7 +29,7 @@ class Answer(object):
         self.update_date = u''
 
         # 答案提交日期(精确到秒)
-        self.create_time = 1458404150
+        self.created_time = 1458404150
 
         # 答案赞同数
         self.vote_count = 0
@@ -45,6 +48,20 @@ class Answer(object):
         # 是否允许转载
         self.is_copyable = True
 
+        return
+
+    def get_json(self):
+        self.json_dict['author'] = self.author.get_json()
+        return self.json_dict
+
+    def set_author(self, author):
+        self.author = author
+        self.json_dict['author'] = {}
+        return
+
+    def set_href(self, href):
+        self.href = href
+        self.json_dict['href'] = href
         return
 
     def set_question_id(self, question_id):
@@ -72,9 +89,9 @@ class Answer(object):
         self.json_dict['update_date'] = update_date
         return
 
-    def set_create_time(self, create_time):
-        self.create_time = create_time
-        self.json_dict['create_date'] = create_time
+    def set_created_time(self, created_time):
+        self.created_time = created_time
+        self.json_dict['created_time'] = created_time
         return
 
     def set_vote_count(self, vote_count):
