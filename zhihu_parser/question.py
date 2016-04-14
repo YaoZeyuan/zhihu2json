@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
-from src.lib.zhihu_parser.base import BaseParser
-from src.lib.zhihu_parser.content.answer import Answer
-from src.lib.zhihu_parser.info.question import QuestionInfo
+from zhihu_parser.base import BaseParser
+from zhihu_parser.content.answer import Answer
+from zhihu_parser.info.question import QuestionInfo
 
 
 class QuestionParser(BaseParser):

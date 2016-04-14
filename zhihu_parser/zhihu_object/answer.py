@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from .author import Author
+import json
 
 
 class Answer(object):
@@ -50,9 +51,12 @@ class Answer(object):
 
         return
 
-    def get_json(self):
-        self.json_dict['author'] = self.author.get_json()
+    def get_dict(self):
+        self.json_dict['author'] = self.author.get_dict()
         return self.json_dict
+
+    def get_json(self):
+        return json.dumps(self.get_dict())
 
     def set_author(self, author):
         self.author = author

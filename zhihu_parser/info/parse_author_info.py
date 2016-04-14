@@ -89,7 +89,7 @@ class ParseAuthorInfo(ParserTools):
             Debug.logger.debug(u'用户id未找到')
             return
         href = self.get_attr(item[0], 'href')
-        self.info['author_id'] = self.match_author_id(href)
+        self.info['author_id'] = self.match_author_slug(href)
         return
 
     def parse_author_hash(self):

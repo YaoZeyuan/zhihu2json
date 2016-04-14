@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from src.lib.zhihu_parser.author import AuthorParser
-from src.lib.zhihu_parser.info.topic import TopicInfo
+from zhihu_parser.author import AuthorParser
+from zhihu_parser.info.topic import TopicInfo
 
 
 class TopicParser(AuthorParser):

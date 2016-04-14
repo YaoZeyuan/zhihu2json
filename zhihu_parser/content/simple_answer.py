@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
-from src.lib.zhihu_parser.content.answer import Answer
-from src.tools.debug import Debug
-from src.tools.match import Match
+from zhihu_parser.content.answer import Answer
+from zhihu_parser.tools.debug import Debug
+from zhihu_parser.tools.match import Match
 
 
 class SimpleAnswer(Answer):

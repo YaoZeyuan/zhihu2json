@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
-from src.lib.zhihu_parser.tools.parser_tools import ParserTools
-from src.tools.debug import Debug
+from zhihu_parser.tools.parser_tools import ParserTools
+from zhihu_parser.tools.debug import Debug
+
+from zhihu_parser.zhihu_object.author import Author
 
 
 class ParseAuthor(ParserTools):
@@ -9,41 +11,46 @@ class ParseAuthor(ParserTools):
     """
 
     def __init__(self, dom=None):
+        # 初始化基础属性
+        self.dom = None
+        self.author = Author()
+
         self.set_dom(dom)
         return
 
     def set_dom(self, dom):
-        self.info = {}
+        self.author = Author()
         if dom:
             self.dom = dom.find('div', class_='zm-item-answer-author-info')
         return
 
-    def get_info(self):
-        self.parse_info()
-        return self.info
+    def get(self):
+        self.__parse()
+        return self.author
 
-    def parse_info(self):
+    def __parse(self):
         if (not self.dom.find('img')) and (not self.dom.find('a', class_='author-link')):
-            self.create_anonymous_info()
+            self.__create_anonymous_author()
         else:
-            self.parse_author_info()
-        return self.info
-
-    def parse_author_info(self):
-        self.parse_author_id()
-        self.parse_author_sign()
-        self.parse_author_logo()
-        self.parse_author_name()
+            self.__parse_author_info()
         return
 
-    def create_anonymous_info(self):
-        self.info['author_id'] = u"coder'sGirlFriend~"
-        self.info['author_sign'] = u''
-        self.info['author_logo'] = u'https://pic1.zhimg.com/da8e974dc_s.jpg'
-        self.info['author_name'] = u'匿名用户'
+    def __parse_author_info(self):
+        self.__parse_author_slug()
+        self.__parse_author_bio()
+        self.__parse_author_logo()
+        self.__parse_author_name()
         return
 
-    def parse_author_id(self):
+    def __create_anonymous_author(self):
+        self.author.set_slug(u'zhihuAPI')
+        self.author.set_hash(u'NiMingYongHu')
+        # 匿名用户专用头像
+        self.author.set_avatar_id(u'da8e974dc')
+        self.author.set_name(u'匿名用户')
+        return
+
+    def __parse_author_slug(self):
         author = self.dom.find('a', class_='zm-item-link-avatar')
         if not author:
             author = self.dom.find('a', class_='author-link')  # for collection
@@ -51,27 +58,40 @@ class ParseAuthor(ParserTools):
             Debug.logger.debug(u'用户ID未找到')
             return
         link = self.get_attr(author, 'href')
-        self.info['author_id'] = self.match_author_id(link)
+        author_slug = self.match_author_slug(link)
+        self.author.set_slug(author_slug)
         return
 
-    def parse_author_sign(self):
-        sign = self.dom.find('strong', class_='zu-question-my-bio')
-        if not sign:
-            sign = self.dom.find('span', class_='bio')
-        if not sign:
+    def __parse_author_bio(self):
+        u"""
+        解析用户签名
+        :return:
+        """
+        bio = self.dom.find('strong', class_='zu-question-my-bio')
+        if not bio:
+            bio = self.dom.find('span', class_='bio')
+        if not bio:
             Debug.logger.debug(u'用户签名未找到')
             return
-        self.info['author_sign'] = self.get_attr(sign, 'title')
+        author_bio = self.get_attr(bio, 'title')
+        self.author.set_bio(author_bio)
         return
 
-    def parse_author_logo(self):
-        self.info['author_logo'] = self.get_attr(self.dom.find('img'), 'src')
+    def __parse_author_logo(self):
+        u"""
+        解析用户logo
+        :return:
+        """
+        author_logo = self.get_attr(self.dom.find('img'), 'src')
+        avatar_id = self.match_author_avatar_id(author_logo)
+        self.author.set_avatar_id(avatar_id)
         return
 
-    def parse_author_name(self):
+    def __parse_author_name(self):
         name = self.dom.find('a', class_='author-link')
         if not name:
             Debug.logger.debug(u'用户名未找到')
             return
-        self.info['author_name'] = name.text
+        author_name = name.text
+        self.author.set_name(author_name)
         return

@@ -35,8 +35,12 @@ class ParserTools(object):
         return ParserTools.match_content("(?<=collection/)\d+", rawLink)
 
     @staticmethod
-    def match_author_id(rawLink):
+    def match_author_slug(rawLink):
         return ParserTools.match_content("""(?<=people/)[^/'"]+""", rawLink)
+
+    @staticmethod
+    def match_author_avatar_id(rawLink):
+        return ParserTools.match_content("""(?<=zhimg\.com\/)[^_\.]*""", rawLink)
 
     @staticmethod
     def get_tag_content(tag):
