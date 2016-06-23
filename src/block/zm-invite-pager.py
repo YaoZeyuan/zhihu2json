@@ -1,0 +1,30 @@
+< div
+
+
+class ="zm-invite-pager" >
+
+< span
+
+
+class ="zg-gray-normal" > 上一页 < / span >
+
+< span
+
+
+class ="zg-gray-normal" > 1 < / span >
+
+< span > < a
+href = "?page=2" > 2 < / a > < / span >
+
+< span > < a
+href = "?page=3" > 3 < / a > < / span >
+
+< span > ... < / span >
+
+< span > < a
+href = "?page=24" > 24 < / a > < / span >
+
+< span > < a
+href = "?page=2" > 下一页 < / a > < / span >
+
+< / div >
