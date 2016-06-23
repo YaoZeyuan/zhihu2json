@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-from src.tools.tools import ParseTools
+from src.tools.parse import TagParser
 
 
-class Base(object):
-    parse_tools = ParseTools()
-
+class BaseItem(object):
     def __init__(self, node):
         u"""
         初始化节点

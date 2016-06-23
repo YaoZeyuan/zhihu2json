@@ -3,7 +3,7 @@ from src.question import QuestionParser
 from src.zhihu_object.question import Question
 
 
-class Parse(object):
+class _Parse(object):
     def __init__(self):
         return
 
