@@ -28,14 +28,14 @@ class Base(object):
     def set_up(self):
         """
         初始化属性值
-        :return:
+        :rtype: None
         """
         return
 
     def tear_down(self):
         """
         清空记录，以便重新计算
-        :return:
+        :rtype: None
         """
         self.attr_dict = {}
         self.node = None
@@ -45,14 +45,14 @@ class Base(object):
         u"""
         重置节点
         :param node:
-        :return:
+        :rtype: None
         """
         self.tear_down()
         self.node = node
         self.set_up()
         return
 
-    def set_attr(self, name, value):
+    def __set_attr(self, name, value):
         setattr(self, name, value)
         self.attr_dict[name] = value
         return
