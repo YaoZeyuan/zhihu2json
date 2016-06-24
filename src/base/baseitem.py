@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
-from src.tools.parse import TagParser
 
 
 class BaseItem(object):
+    u"""
+    基础类，用于提供通用的框架
+    """
     def __init__(self, node):
         u"""
         初始化节点
