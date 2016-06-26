@@ -7,8 +7,10 @@ class zh_fav_head_title(BaseItem):
     u"""
     收藏夹标题
 
-    属性          值    => 含义       => 测试用例
-    self.title  str   => 收藏夹标题 => resource/block/collection/zh-fav-head-title.html
+    :param self.title:收藏夹标题
+    :type:str
+    测试用例
+    resource/block/collection/zh-fav-head-title.html
     """
     def set_up(self):
         title = Tag.get_content(self.node)

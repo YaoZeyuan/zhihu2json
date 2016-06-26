@@ -1,0 +1,479 @@
+{
+  "0": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic4.zhimg.com/50/2fa671468efa9ca3dcac1480c0d3bc23_s.jpg",
+        "gender": 0,
+        "headline": "Love Laugh Live.",
+        "id": "6f72de90ebee2ac056315b7968b622de",
+        "name": "\u9648\u68c9\u68c9",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/6f72de90ebee2ac056315b7968b622de",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1466730070,
+      "excerpt": "\u770b\u5230\u9898\u4e3b\u572825\u53f7\u7684\u66f4\u65b0\uff0c\u90a3\u6211\u4e5f\u66f4\u65b0\u4e00\u4e0b\u5427\u3002\u5f88\u660e\u663e\uff0c\u4f60\u5148\u751f\u662f\u90a3\u79cd\u4e0d\u613f\u610f\u63a5\u53d7\u522b\u4eba\u610f\u89c1\u7684\u4eba\u3002\u4ed6\u6709\u4e00\u5957\u81ea\u5df1\u7684\u903b\u8f91\u4f53\u7cfb\uff0c\u5728\u4ed6\u7684\u8ba4\u77e5\u91cc\u4ed6\u505a\u7684\u4e00\u5207\u90fd\u662f\u6b63\u786e\u7684\u3002\u56e0\u6b64\uff0c\u5728\u8fd9\u79cd\u60c5\u51b5\u4e0b\uff0c\u5927\u5bb6\u8bf4\u7684\u65b9\u6cd5\u8bba\u51e0\u4e4e\u5168\u90e8\u65e0\u6548\u3002\u56e0\u4e3a\uff0c\u53ea\u6709\u613f\u610f\u627f\u8ba4\u81ea\u5df1\u9700\u8981\u5e2e\u52a9\u7684\u4eba\uff0c\u83b7\u5f97\u7684\u5e2e\u52a9\u624d\u6709\u6548\u3002\u6211\u4e0d\u8ba4\u540c\u4f60\u5148\u751f\u7684\u505a\u6cd5\uff0c\u4e5f\u4e0d\u8ba4\u540c\u4ed6\u7684\u4ef7\u503c\u89c2\u3002\u4f46\u6211\u5c0a\u91cd\u7406\u89e3\u4f60\u4e0d\u613f\u610f\u8ba9\u77db\u76fe\u6fc0\u5316\u7684\u5fc3\u60c5\u3002\u5728\u4f60\u9700\u8981\u7684\u524d\u63d0\u4e0b\uff0c\u6211\u5f88\u613f\u610f\u5e2e\u52a9\u4f60\u3002\u4ee5\u540e\u4f60\u6709\u5173\u4e8e\u513f\u7ae5\u6559\u80b2\u7684\u5177\u4f53\u7684\u95ee\u9898\u4e5f\u53ef\u4ee5\u79c1\u2026",
+      "id": 107537885,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic2.zhimg.com/50/f3f9f415a42e043489413269b0aaff35_s.jpg",
+          "gender": 0,
+          "headline": "\u62a4\u80a4\u5f69\u5986\u7231\u597d\u8005",
+          "id": "df0f30647ee3ee222d1c7d403321d08c",
+          "name": "\u6211\u4eec\u7684\u7eaa\u5ff5\u65e5",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/df0f30647ee3ee222d1c7d403321d08c",
+          "user_type": "people"
+        },
+        "id": 47677176,
+        "title": "\u8001\u516c\u6559\u56db\u5c81\u7684\u5b69\u5b50\u52a0\u6cd5\uff0c\u5b69\u5b50\u7b97\u9519\u4e86\u8001\u516c\u5c31\u53f9\u6c14\u8bf4\u667a\u5546\u591f\u545b\uff0c\u6211\u8bf4\u4ed6\u8981\u591a\u9f13\u52b1\uff0c\u4ed6\u8bf4\u6211\u5b66\u6e23\u5c31\u522b\u6307\u624b\u753b\u811a\u4e86\u600e\u4e48\u529e\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/47677176"
+      },
+      "thanks_count": 150,
+      "type": "answer",
+      "updated_time": 1466873038,
+      "url": "https://api.zhihu.com/answers/107537885",
+      "voteup_count": 873
+    },
+    "data": null
+  },
+  "1": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic1.zhimg.com/50/35ef3aa4cc835ec0a5a1596012423adc_s.jpg",
+        "gender": 0,
+        "headline": "\u6df7\u65e5\u5b50\u7684",
+        "id": "584f1e93d15dc090cd77391908b1bdb9",
+        "name": "\u6bdb\u4e1c",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/584f1e93d15dc090cd77391908b1bdb9",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1464249734,
+      "excerpt": "\u94fe\u63a5\uff1a\u600e\u4e48\u770b\u94f6\u5ddd\u963f\u62c9\u4f2f\u8bed\u8def\u724c\uff1f - \u6bdb\u4e1c\u7684\u56de\u7b54 \u7b2c\u4e00\uff0c\u4e0e\u5176\u4ed6\u6c11\u65cf\u5730\u65b9\u7684\u8def\u724c\u4e0d\u540c\uff0c\u5b81\u590f\u7684\u8def\u724c\u662f\u6c49\u5b57\u5728\u6700\u4e0a\uff0c\u4e0b\u9762\u662f\u82f1\u6587\u6216\u6c49\u8bed\u62fc\u97f3\uff0c\u6700\u4e0b\u662f\u963f\u62c9\u4f2f\u6587\u3002\u800c\u5176\u4ed6\u6c11\u65cf\u5730\u65b9\u5f97\u8def\u724c\u90fd\u662f\u6c11\u65cf\u6587\u5b57\u5728\u6700\u4e0a\uff0c\u4e0b\u65b9\u662f\u6c49\u5b57\uff0c\u7136\u540e\u518d\u662f\u82f1\u6587\u6216\u6c49\u8bed\u62fc\u97f3\u3002\u6240\u4ee5\uff0c\u963f\u6587\u8def\u724c\u4e0d\u80fd\u5355\u7eaf\u8ba4\u4e3a\u662f\u628a\u963f\u62c9\u4f2f\u6587\u5f53\u505a\u56de\u65cf\u7684\u6c11\u65cf\u6587\u5b57\uff0c\u5982\u679c\u8bf4\u963f\u62c9\u4f2f\u6587\u662f\u56de\u65cf\u7684\u6c11\u65cf\u6587\u5b57\uff0c\u90a3\u4e48\u5e94\u8be5\u662f\u628a\u963f\u6587\u653e\u5728\u6c49\u5b57\u7684\u4e0a\u9762\u624d\u5bf9\uff0c\u4f46\u73b0\u5b9e\u4e2d\uff0c\u963f\u6587\u662f\u5728\u6700\u4e0b\u9762\u3002 [\u56fe\u7247] \u3010\u897f\u85cf\u7684\u8def\u724c\uff0c\u85cf\u6587\u5728\u6c49\u5b57\u4e4b\u4e0a\u3011 [\u56fe\u7247] \u3010\u2026",
+      "id": 102750483,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic4.zhimg.com/50/931456cd808410bf06e2addcb63b6edf_s.jpg",
+          "gender": 1,
+          "headline": "\u767e\u5408\u515a\u4e2d\u592e\u59d4\u5458\u4f1a",
+          "id": "915b10ea8d69dc80e08b4ef126b92720",
+          "name": "\u59dc\u59d4\u5458\u957f",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/915b10ea8d69dc80e08b4ef126b92720",
+          "user_type": "people"
+        },
+        "id": 30293176,
+        "title": "\u5982\u4f55\u770b\u5f85\u94f6\u5ddd\u6d3e\u51fa\u6240\u65b0\u8def\u724c\u4f7f\u7528\u963f\u62c9\u4f2f\u6587\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/30293176"
+      },
+      "thanks_count": 96,
+      "type": "answer",
+      "updated_time": 1464249827,
+      "url": "https://api.zhihu.com/answers/102750483",
+      "voteup_count": 501
+    },
+    "data": null
+  },
+  "10": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic4.zhimg.com/50/e258d82eb8984e2efcba25b0340a6edb_s.jpg",
+        "gender": 1,
+        "headline": "\u4e13\u6ce8PS/AI\u6559\u7a0b\u4e00\u4e07\u5149\u5e74\uff01",
+        "id": "2b10bf023e8de1770338d659d68a451e",
+        "name": "\u5c0f\u9ea6\u4e2b",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/2b10bf023e8de1770338d659d68a451e",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1464577969,
+      "excerpt": "\u4f60\u4eec\u90fd\u8ba9\u4e00\u4e0b\uff0c\u4e0d\u8981\u4e71\u88c5\u903c\uff01\u5982\u679c\u4f60\u56e0\u5931\u53bb\u4e86\u592a\u9633\u800c\u6d41\u6cea\uff0c\u90a3\u4e48\u4f60\u4e5f\u5c06\u5931\u53bb\u7fa4\u661f\uff01\u5148\u4e0a\u6548\u679c\u56fe\uff1a [\u56fe\u7247] \u8fd9\u79cd\u56fe\u5f62\u7684\u5236\u4f5c\u6d41\u7a0b\u548c\u8111\u6d1e\u80fd\u529b\uff0c\u5c5e\u4e8eAI\u7684\u8fdb\u9636\u6559\u7a0b\uff0c\u9898\u4e3b\u7684\u91ce\u5fc3\u5f88\u5927\u3002\u4e3a\u4e86\u8ba9\u65b0\u624b\u90fd\u80fd\u660e\u767d\u539f\u7406\uff0c\u6211\u7684\u6559\u7a0b\u4f1a\u5c3d\u91cf\u8be6\u7ec6\uff0c\u6240\u4ee5\u4e5f\u4f1a\u975e\u5e38\u957f\u3002\u4e0d\u8fc7\u6211\u76f8\u4fe1\u5927\u5bb6\u53ef\u4ee5\u5b66\u5230\u5f88\u591a\u77e5\u8bc6\u70b9\uff01\u901a\u8fc7\u89c2\u5bdf\u9898\u4e3b\u7684\u56fe\u5f62\uff0c\u6211\u4eec\u4f1a\u53d1\u73b0\u4ee5\u4e0b\u51e0\u70b9\u89c4\u5f8b\uff1a1.\u56fe\u5f62\u201c9\u201d\u7531\u95f4\u8ddd\u57fa\u672c\u76f8\u540c\u7684\u5706\u70b9\u7ec4\u6210\u30022.\u8fd9\u4e9b\u5706\u70b9\u90fd\u89c4\u5f8b\u7684\u5904\u5728\u76f4\u5f84\u4e0d\u540c\u7684\u540c\u5fc3\u5706\u8f68\u9053\u4e0a\u30023.\u56fe\u5f62\u201c9\u201d\u7684\u8f6e\u5ed3\u8fb9\u7f18\u90fd\u4f1a\u4ea7\u751f\u2026",
+      "id": 103354810,
+      "is_copyable": false,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic1.zhimg.com/50/da8e974dc_s.jpg",
+          "gender": 1,
+          "headline": "\u60f3\u60f3\u518d\u8bf4",
+          "id": "0ad0bdb8260c2c22ffc3795c3d3c46bc",
+          "name": "\u5b50\u96c5\u77e2",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/0ad0bdb8260c2c22ffc3795c3d3c46bc",
+          "user_type": "people"
+        },
+        "id": 46768145,
+        "title": "\u8fd9\u6837\u7684\u6548\u679c\u7528 AI \u6216 PS \u5982\u4f55\u5b9e\u73b0\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/46768145"
+      },
+      "thanks_count": 717,
+      "type": "answer",
+      "updated_time": 1464853854,
+      "url": "https://api.zhihu.com/answers/103354810",
+      "voteup_count": 1392
+    },
+    "data": null
+  },
+  "2": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic2.zhimg.com/50/003f209fe57643cebb175664a7a74795_s.jpg",
+        "gender": 1,
+        "headline": "\u54c8\u4f5b\uff08\u53e4\u4ee3\u4e2d\u4e1c\uff09zhuanlan.zhihu.com/jewisrael",
+        "id": "30ef9ea4deb4d750fdf37197c3719ecb",
+        "name": "\u6885\u534e\u9f99",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/30ef9ea4deb4d750fdf37197c3719ecb",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1466439053,
+      "excerpt": "\u524d\u51e0\u5929\u624d\u53bb\u4e86\u94f6\u5ddd\uff0c\u53d1\u73b0\u8def\u724c\u4e0a\u51e0\u4e4e\u90fd\u6709\u963f\u8bed\uff0c\u6211\u89c9\u5f97\u633a\u597d\u7684\uff0c\u663e\u793a\u4e86\u4e2d\u56fd\u7684\u5f00\u653e\u3002\u4e0d\u662f\u5f88\u7406\u89e3\u4e3a\u4ec0\u4e48\u6709\u4e9b\u4eba\u8ba4\u4e3a\u611f\u89c9\u5199\u963f\u8bed\u4ee3\u8868\u6709\u4eba\u89c9\u5f97\u56de\u65cf\u7684\u8bed\u8a00\u662f\u963f\u8bed\u3002\u53bb\u94f6\u5ddd\u552f\u4e00\u5bf9\u975e\u7a46\u65af\u6797\u5f00\u653e\u7684\u5357\u5173\u6e05\u771f\u5927\u5bfa\u53c2\u89c2\uff0c\u91cc\u9762\u7684\u5973\u8bb2\u89e3\u5458\u4e0a\u6765\u5c31\u544a\u8bc9\u5927\u5bb6\uff1a\u201c\u56de\u65cf\u6ca1\u6709\u81ea\u5df1\u7684\u8bed\u8a00\uff0c\u6211\u4eec\u5c31\u662f\u7528\u6c49\u8bed\u3001\u5199\u6c49\u5b57\uff0c\u6709\u4e9b\u4eba\u89c9\u5f97\u56de\u65cf\u7684\u8bed\u8a00\u662f\u963f\u62c9\u4f2f\u8bed\uff0c\u8fd9\u662f\u9519\u8bef\u7684\u3002\u201d\u4eba\u5bb6\u6ca1\u8bf4\u81ea\u5df1\u8bb2\u963f\u8bed\u554a\u3002\u5f53\u7136\u4e5f\u4e0d\u5e94\u8be5\u8bf4\u56de\u65cf\u548c\u963f\u8bed\u6ca1\u5173\u7cfb\uff0c\u5f53\u7136\u6709\u3002\u9996\u5148\u662f\u5b97\u6559\u8bed\u8a00\uff1b\u5176\u6b21\u56de\u65cf\u7684\u786e\u4f7f\u2026",
+      "id": 106989510,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic4.zhimg.com/50/931456cd808410bf06e2addcb63b6edf_s.jpg",
+          "gender": 1,
+          "headline": "\u767e\u5408\u515a\u4e2d\u592e\u59d4\u5458\u4f1a",
+          "id": "915b10ea8d69dc80e08b4ef126b92720",
+          "name": "\u59dc\u59d4\u5458\u957f",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/915b10ea8d69dc80e08b4ef126b92720",
+          "user_type": "people"
+        },
+        "id": 30293176,
+        "title": "\u5982\u4f55\u770b\u5f85\u94f6\u5ddd\u6d3e\u51fa\u6240\u65b0\u8def\u724c\u4f7f\u7528\u963f\u62c9\u4f2f\u6587\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/30293176"
+      },
+      "thanks_count": 42,
+      "type": "answer",
+      "updated_time": 1466439416,
+      "url": "https://api.zhihu.com/answers/106989510",
+      "voteup_count": 159
+    },
+    "data": null
+  },
+  "3": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic1.zhimg.com/50/5ba42afa3276a634dedd1f15dea5b844_s.jpg",
+        "gender": 1,
+        "headline": "World Builder",
+        "id": "e3944ec38b761bf44b9c371a852b0207",
+        "name": "\u7f57\u767b",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/e3944ec38b761bf44b9c371a852b0207",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1336493754,
+      "excerpt": "\u6709\u66f4\u65b0\uff1a\u57fa\u7763\u6559\u7684\u539f\u6559\u65e8\u4e3b\u4e49\u5982\u4eca\uff0c\u8ba9\u4eba\u4eec\u8c08\u8bba\u539f\u6559\u65e8\u4e3b\u4e49\u7684\u65f6\u5019\uff0c\u8111\u6d77\u91cc\u9762\u6d6e\u73b0\u7684\u591a\u534a\u662f\u4e2d\u4e1c\u5730\u533a\u7684\u8fde\u73af\u7206\u70b8\uff0c911\u7684\u53cc\u5854\u5012\u584c\uff0c\u548c\u5df4\u52d2\u65af\u5766\u8857\u5934\u4e3e\u7740AK47\u7684\u7a46\u65af\u6797\u72c2\u70ed\u5206\u5b50\u3002\u8fd9\u4e9b\u90fd\u6ca1\u6709\u9519\uff0c\u4ed6\u4eec\u53ef\u4ee5\u88ab\u6210\u4e3a\u539f\u6559\u65e8\u4e3b\u4e49\u8005\uff0c\u4f46\u662f\uff0c\u539f\u6559\u65e8\u4e3b\u4e49\u8005\u5e76\u4e0d\u662f\u4ed6\u4eec\u6700\u51c6\u786e\u7684\u6807\u7b7e\uff0c\u5e76\u4e14\u539f\u6559\u65e8\u4e3b\u4e49\u4e00\u5f00\u59cb\u548c\u6781\u7aef\u7684\u66b4\u529b\u4e5f\u662f\u4e0d\u6cbe\u8fb9\u7684\u3002\u751a\u81f3\u539f\u6559\u65e8\u4e3b\u4e49\u4e00\u5f00\u59cb\u662f\u4f0a\u65af\u5170\u6559\u201c\u6b7b\u5bf9\u5934\u201d---\u57fa\u7763\u6559\u7684\u4e00\u4e2a\u6d41\u6d3e\u300219\u4e16\u7eaa\u672b\uff0c\u5728\u7f8e\u56fd\u7684\u57fa\u7763\u6559\u793e\u4f1a\uff0c\u51fa\u73b0\u4e86\u81ea\u7531\u6d3e\u57fa\u7763\u6559\u5b66\u7740\u2026",
+      "id": 14393041,
+      "is_copyable": false,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic4.zhimg.com/50/fb02365402b6de3dc09c9f23eef1e23f_s.jpg",
+          "gender": 1,
+          "headline": "iOS\u5f00\u53d1\u5de5\u7a0b\u72ee",
+          "id": "bbc47279cdcc29ad99df38988187734d",
+          "name": "Channe",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/bbc47279cdcc29ad99df38988187734d",
+          "user_type": "people"
+        },
+        "id": 20207045,
+        "title": "\u4e3a\u4ec0\u4e48\u6050\u6016\u5206\u5b50\u591a\u4fe1\u4ef0\u4f0a\u65af\u5170\u6559\uff1f\u4f0a\u65af\u5170\u6559\u7684\u6559\u4e49\u662f\u5426\u88ab\u66f2\u89e3\u4e86\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/20207045"
+      },
+      "thanks_count": 5028,
+      "type": "answer",
+      "updated_time": 1407666803,
+      "url": "https://api.zhihu.com/answers/14393041",
+      "voteup_count": 13388
+    },
+    "data": null
+  },
+  "4": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic3.zhimg.com/50/7e396d05e7afbbcb0a60f8d862db460e_s.jpg",
+        "gender": 1,
+        "headline": "\u6211\u4e0d\u662f\u65b0\u95fb\u5de5\u4f5c\u8005\u3002",
+        "id": "9d5866ec48e764d0f33c6b15da5e0a49",
+        "name": "\u6d82\u6837",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/9d5866ec48e764d0f33c6b15da5e0a49",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1466173954,
+      "excerpt": "\u6211\u8bf4\u51e0\u53e5\u51b7\u6f20\u65e0\u60c5\u7684\u8bdd\u5427\uff01\u5927\u591a\u6570\u4eba\u5176\u5b9e\u662f\u88ab\u5386\u53f2\u7684\u6f6e\u6d41\u88f9\u631f\u800c\u8d70\u7684\u3002\u5927\u591a\u6570\u4eba\u662f\u88ab\u7ecf\u6d4e\u7684\u5f62\u52bf\uff0c\u88ab\u653f\u6cbb\u7684\u683c\u5c40\u6240\u9a71\u52a8\u7740\u2026\u5b9e\u9645\u4e0a\u7f51\u7edc\u7684\u8a00\u8bba\uff0c\u66f4\u591a\u7684\u53ea\u662f\u8fd9\u79cd\u6f6e\u6d41\u7684\u53cd\u6620\u3002\u8a00\u8bba\u672c\u8eab\u4e0d\u662f\u95ee\u9898\uff0c\u8a00\u8bba\u53ea\u662f\u95ee\u9898\u7684\u53cd\u6620\u3002\u6240\u4ee5\uff0c\u60f3\u901a\u8fc7\u8a00\u8bba\u4e0a\u7684\u53cd\u9a73\uff0c\u6765\u5316\u89e3\u67d0\u4e2a\u95ee\u9898\uff0c\u751a\u81f3\u6539\u53d8\u6f6e\u6d41\uff0c\u90a3\u662f\u4e0d\u53ef\u80fd\u7684\u3002\u65e2\u7136\u90fd\u8bf4\u4e86\uff0c\u6211\u4e0d\u59a8\u591a\u8bf4\u4e24\u53e5\u3002\u6bd4\u5982\uff0c\u81f3\u5c11\u77e5\u4e4e\u5927\u591a\u6570\u90fd\u662f\u8ba4\u540c\u7537\u5973\u5e73\u7b49\u7684\u5bf9\u5427\uff1f\u90fd\u5728\u9a73\u65a5\u793e\u4f1a\u5404\u79cd\u5bf9\u5973\u6027\u7684\u6b67\u89c6\u5427\uff1f\u4f46\u662f\u5982\u679c\u7ecf\u6d4e\u5f62\u52bf\u3001\u751f\u80b2\u653f\u7b56\u3001\u517b\u8001\u653f\u2026",
+      "id": 106502989,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic3.zhimg.com/50/e4d8eb80567aa0625b2476a2a5a28e56_s.jpg",
+          "gender": 1,
+          "headline": "\u603b\u662f\u5411\u5f80\u4e00\u5904\u53ef\u4ee5\u61a9\u606f\u7684\u5730\u65b9",
+          "id": "c134f6b18485a72033f52a35749831b9",
+          "name": "\u9752\u8272\u7684\u5149",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/c134f6b18485a72033f52a35749831b9",
+          "user_type": "people"
+        },
+        "id": 47496505,
+        "title": "\u5982\u4f55\u8bc4\u4ef7@\u738b\u9676\u9676 \u7684\u6587\u7ae0\u201c\u6781\u7aef\u4f0a\u65af\u5170\u7684\u5d1b\u8d77\u4e0e\u7eb3\u7cb9\u9b54\u738b\u7684\u8bde\u751f\u201d\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/47496505"
+      },
+      "thanks_count": 101,
+      "type": "answer",
+      "updated_time": 1466395747,
+      "url": "https://api.zhihu.com/answers/106502989",
+      "voteup_count": 534
+    },
+    "data": null
+  },
+  "5": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic4.zhimg.com/50/5c59cc05cd080446b2da29c0df10436b_s.jpg",
+        "gender": 1,
+        "headline": "\u65b0\u516c\u4f17\u53f7wtt1316606212\uff0c\u65e7\u53f7\u88ab\u5c01\u7981\u4e00\u4e2a\u6708",
+        "id": "9c809f979c2af9513509e7430658f94e",
+        "name": "\u738b\u9676\u9676",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/9c809f979c2af9513509e7430658f94e",
+        "user_type": "people"
+      },
+      "can_tip": false,
+      "comment_count": 1136,
+      "comment_permission": "all",
+      "created": 1465906297,
+      "excerpt": "\u4ee5\u53f2\u4e3a\u9274\uff0c\u73cd\u7231\u548c\u5e73\u3002\u4e16\u754c\u4ece\u6765\u4e0d\u4f1a\u53ea\u6709\u4e00\u4e2a\u9b54\u9b3c\uff0c\u9b54\u9b3c\u4ece\u6765\u90fd\u662f\u5b6a\u751f\u3002=========== [\u56fe\u7247] \u7eb3\u7cb9\u5ba3\u4f20\u753b\uff0c\u72b9\u592a\u4eba\u7edf\u6cbb\u4e16\u754c\u7684\u9634\u8c0b\uff0c\u5413\u552c\u5fb7\u56fd\u4eba\uff08\u662f\u4e0d\u662f\u8ba9\u4f60\u60f3\u8d77\u4e86\u73b0\u5728\u6df1\u5165\u4eba\u5fc3\u7684\u4f0a\u65af\u5170\u6050\u60e7\u75c7\uff09 [\u56fe\u7247] \u7eb3\u7cb9\u5ba3\u4f20\u753b\uff0c\u9f13\u5439\u72b9\u592a\u4eba\u7684\u6b8b\u66b4\u9634\u72e0\uff0c\u753b\u9762\u4e0a\u7684\u72b9\u592a\u4eba\u5982\u679c\u5e26\u4e2a\u767d\u5e3d\uff0c\u4e0d\u5c31\u662f\u73b0\u5728\u5168\u4e16\u754c\u5e7f\u5927\u975e\u7a46\u65af\u6797\u5fc3\u4e2d\u7684\u7a46\u65af\u6797\u5417\uff1f\u7a46\u65af\u6797\u73b0\u5728\u7684\u5904\u5883\uff0c\u8ba9\u6211\u60f3\u8d77\u4e00\u4e2a\u8ba9\u4eba\u54c0\u4f24\u7684\u6210\u8bed\uff0c\u201d\u91dc\u6c34\u5df2\u6cb8\uff0c\u800c\u6e38\u9c7c\u4e0d\u77e5\u3002\u201c\u5c3d\u7ba1\u4e16\u754c\u4e0a\u65e0\u6570\u7684\u975e\u7a46\u65af\u6797\u90fd\u6781\u4e3a\u618e\u6068\u6050\u60e7\u6781\u7aef\u7a46\u65af\u6797\uff0c\u5c3d\u7ba1\u2026",
+      "id": 21353937,
+      "image_height": 422,
+      "image_url": "https://pic4.zhimg.com/50/24e20c57b21676aa2b1c3a345810245f_r.jpg",
+      "image_width": 620,
+      "tipjarors_count": 0,
+      "title": "\u6781\u7aef\u4f0a\u65af\u5170\u7684\u5d1b\u8d77\u4e0e\u7eb3\u7cb9\u9b54\u738b\u7684\u91cd\u751f",
+      "type": "article",
+      "updated": 1466248159,
+      "url": "https://api.zhihu.com/articles/21353937",
+      "voteup_count": 4102
+    },
+    "data": null
+  },
+  "6": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic3.zhimg.com/50/e313037293790b8016bb0a4e753c8aae_s.jpg",
+        "gender": 0,
+        "headline": "\u597d\u770b\u7684\u4eba\u90fd\u5173\u6ce8\u4e86\u6211",
+        "id": "6c6dad49e7a81ce519fedc3d73405810",
+        "name": "\u6c90\u6c90",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/6c6dad49e7a81ce519fedc3d73405810",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1466137713,
+      "excerpt": "\u53cd\u5bf9\u524d\u9762\u4e00\u5207\u8bf4\u6821\u957f\u5723\u6bcd\u7684\u7b54\u6848\u3002\u9996\u5148\u8bf4\u4eb2\u8eab\u4f53\u9a8c\u7684\u4e8b\u5b9e\uff1a\u8fd9\u662f\u4e00\u4e2a\u65e0\u89e3\u7684\u6096\u8bba\u3002\u770b\u5230\u8fd9\u6761\u65b0\u95fb\u5413\u4e86\u4e00\u8df3\uff0c\u5dee\u70b9\u4ee5\u4e3a\u662f\u6211\u4ee5\u524d\u6559\u7684\u90a3\u4e2a\u5b66\u751f\u3002\u5173\u4e8e\u8fd9\u4e2a\u5b66\u751f\uff0c\u6211\u771f\u662f\u5934\u75bc\u7684\u4e0d\u884c\uff0c\u7279\u522b\u6709\u653b\u51fb\u6027\uff0c\u7ecf\u5e38\u628a\u73ed\u4e0a\u540c\u5b66\u6253\u7684\u5934\u7834\u8840\u6d41\uff0c\u653b\u51fb\u8001\u5e08\uff0c\u800c\u4e14\u6ca1\u6709\u4efb\u4f55\u524d\u5146\u548c\u7406\u7531\u7684\uff0c\u4f5c\u4e3a\u73ed\u4e3b\u4efb\uff0c\u771f\u662f\u88ab\u4ed6\u6c14\u54ed\u65e0\u6570\u6b21\uff0c\u53c8\u65e0\u53ef\u5948\u4f55\uff0c\u56e0\u4e3a\u8fd9\u4e2a\u5b69\u5b50\u5b8c\u5168\u751f\u6d3b\u5728\u81ea\u5df1\u7684\u4e16\u754c\uff0c\u548c\u5916\u754c\u6ca1\u6709\u6c9f\u901a\u7684\u80fd\u529b\uff0c\u65e0\u8bba\u662f\u548c\u540c\u5b66\u8fd8\u662f\u548c\u8001\u5e08\u8fd8\u662f\u548c\u5176\u4ed6\u4efb\u4f55\u4eba\u3002\u6211\u770b\u4e86\u5f88\u591a\u4e66\u5c1d\u8bd5\u5f88\u591a\u7684\u529e\u2026",
+      "id": 106413248,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic3.zhimg.com/50/af8574bec25f0995ae2f6e6fecedf2d6_s.jpg",
+          "gender": 1,
+          "headline": "",
+          "id": "2116d55ad1443d08d6548db27389917b",
+          "name": "\u9ed1\u8272\u7684\u6708",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/2116d55ad1443d08d6548db27389917b",
+          "user_type": "people"
+        },
+        "id": 47466239,
+        "title": "\u5982\u4f55\u770b\u5f85\u201c\u5357\u4eac\u4e00\u5c0f\u5b66\u73ed\u4e0a\u6709\u4e2a\u2018\u718a\u5b69\u5b50\u2019 40\u591a\u540d\u5bb6\u957f\u8054\u540d\u529d\u9000\u201d\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/47466239"
+      },
+      "thanks_count": 1343,
+      "type": "answer",
+      "updated_time": 1466169803,
+      "url": "https://api.zhihu.com/answers/106413248",
+      "voteup_count": 8997
+    },
+    "data": null
+  },
+  "7": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic3.zhimg.com/50/a72823a3b8861619775f88354a3e2742_s.jpg",
+        "gender": 1,
+        "headline": "\u63d0\u7b14\u4ece\u6587\u3002",
+        "id": "a3c9e2f1f54d98033cdbeeeb55f51920",
+        "name": "\u9ad8\u5927\u62d9",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/a3c9e2f1f54d98033cdbeeeb55f51920",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1432024011,
+      "excerpt": "\u8c22\u9080\u3002\u8bdd\u8bf4\uff0c\u4e3a\u4ec0\u4e48\u4f1a\u9080\u8bf7\u6211\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\u554a\uff1f\u6211\u770b\u8d77\u6765\u90a3\u4e48\u50cf\u53d8\u6001\u5417\uff1f [\u56fe\u7247] \u597d\u5427\uff0c\u6211\u627f\u8ba4\u6211\u5728\u5927\u5b66\u7684\u65f6\u5019\u770b\u4e0a\u53bb\u50cf\u53d8\u6001\u4e86\u4e00\u4e9b\uff0c\u4f46\u662f\u6211\u771f\u7684\u662f\u4e00\u4e2a\u5584\u826f\u7684Boy\u7684\u554a\uff01\u6211\u505a\u7684\u6bcf\u4ef6\u4e8b\u60c5\uff0c\u90fd\u662f\u5145\u6ee1\u7ae5\u8da3\u7684\uff0c\u7edd\u5bf9\u4e0d\u662f\u53d8\uff01\u6001\uff01 [\u56fe\u7247] \u60f3\u6211\u5927\u5b66\u65f6\u5019\uff0c\u6bcf\u5e74\u6691\u5047\u56de\u5bb6\uff0c\u90fd\u4f1a\u548c\u5c0f\u4f19\u4f34\u53bb\u5e02\u91cc\u7684\u9ad8\u4e2d\u590d\u8bfb\u73ed\u5047\u88c5\u662f\u590d\u8bfb\u751f\uff0c\u56e0\u4e3a\u90a3\u65f6\u590d\u8bfb\u73ed\u521a\u521a\u5f00\u8bfe\uff0c\u4eba\u591a\u6c34\u6df7\uff0c\u6211\u4eec\u51e0\u4e2a\u6df7\u5728\u91cc\u9762\u4e00\u70b9\u4e5f\u4e0d\u624e\u773c\u3002\u7136\u540e\u88c5\u6a21\u4f5c\u6837\u542c\u4e24\u5929\u8bfe\uff0c\u5c31\u5fc3\u6ee1\u610f\u8db3\u7684\u8d70\u6389\u4e86\u3002\u6709\u65f6\u5019\u4e5f\u4f1a\u88ab\u8d28\u7591\u4e3a\u4ec0\u4e48\u6570\u5b66\u5316\u5b66\u2026",
+      "id": 48301427,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic2.zhimg.com/aadd7b895_s.jpg",
+          "headline": "",
+          "id": "0",
+          "name": "\u533f\u540d\u7528\u6237",
+          "type": "people",
+          "url": "",
+          "user_type": "people"
+        },
+        "id": 30409900,
+        "title": "\u53d8\u6001\u662f\u4e00\u79cd\u600e\u6837\u7684\u4f53\u9a8c\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/30409900"
+      },
+      "thanks_count": 385,
+      "type": "answer",
+      "updated_time": 1432487006,
+      "url": "https://api.zhihu.com/answers/48301427",
+      "voteup_count": 2006
+    },
+    "data": null
+  },
+  "8": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic2.zhimg.com/aadd7b895_s.jpg",
+        "headline": "",
+        "id": "0",
+        "name": "\u533f\u540d\u7528\u6237",
+        "type": "people",
+        "url": "",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1456232645,
+      "excerpt": "[\u56fe\u7247]",
+      "id": 87752586,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic2.zhimg.com/50/26217391d_s.jpg",
+          "gender": 1,
+          "headline": "\u4e34\u6cb3\u800c\u7fa1\u9c7c\uff0c\u4e0d\u5982\u5f52\u5bb6\u7ec7\u7f51\u3002",
+          "id": "91b2a6bd9dfbf7817fe10aebf67e9b22",
+          "name": "\u52ff\u8bb8\u6094",
+          "type": "people",
+          "url": "https://api.zhihu.com/people/91b2a6bd9dfbf7817fe10aebf67e9b22",
+          "user_type": "people"
+        },
+        "id": 30373385,
+        "title": "\u7ed9\u559c\u6b22\u7684\u4eba\u53d1\u4fe1\u606f\u4e0d\u56de\u662f\u600e\u6837\u4e00\u79cd\u4f53\u9a8c\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/30373385"
+      },
+      "thanks_count": 2,
+      "type": "answer",
+      "updated_time": 1456232645,
+      "url": "https://api.zhihu.com/answers/87752586",
+      "voteup_count": 10
+    },
+    "data": null
+  },
+  "9": {
+    "cache": {
+      "author": {
+        "avatar_url": "http://pic4.zhimg.com/50/a57fdaff90865eaaef2e87051624862b_s.jpg",
+        "gender": 1,
+        "headline": "(\u0e07 \u2022\u0300_\u2022\u0301)\u0e07 \u3002",
+        "id": "28bb2b6ff09a5072198351434ab2efff",
+        "name": "yolfilm",
+        "type": "people",
+        "url": "https://api.zhihu.com/people/28bb2b6ff09a5072198351434ab2efff",
+        "user_type": "people"
+      },
+      "can_comment": {
+        "reason": "",
+        "status": true
+      },
+      "comment_permission": "all",
+      "created_time": 1464878077,
+      "excerpt": "-\u4e34\u8fd1\u5927\u8003\uff0c\u5c31\u5269\u4e9b\u8bb8\u65e5\u5b50\uff0c\u8001\u5b9e\u8bf4\uff0c\u60f3\u518d\u591a\u90fd\u6ca1\u6709\u7528\u3002\u4e00\u5929\u5543\u4e00\u5929\u7684\u9992\u5934\u3002\u4e00\u5929\u6572\u4e00\u5929\u7684\u949f\u3002\u771f\u7684\u9759\u4e0d\u4e0b\u6765\uff0c\u5750\u5230\u4e66\u684c\u524d\uff0c\u62ff\u5f20\u767d\u7eb8\uff0c\u7528\u7b14\u5199\u4e0b\u4f60\u80fd\u60f3\u5230\u7684\u300c\u6700\u574f\u60c5\u51b5\u300d\u3002\u6700\u574f\u6700\u574f\u7684\u60c5\u51b5\u662f\u4ec0\u4e48\uff1f\u6700\u574f\u7684\u60c5\u51b5\uff0c\u81ea\u5df1\u80fd\u63a5\u53d7\u4e0d\uff1f\u6700\u574f\u7684\u60c5\u51b5\u90fd\u60f3\u6e05\u695a\u4e86\uff0c\u53ea\u8981\u4e0d\u662f\u6700\u574f\uff0c\u5c31\u4e00\u5b9a\u662f\u597d\u7684\u3002\u5c31\u662f\u6700\u574f\uff0c\u4e5f\u662f\u60f3\u50cf\u8fc7\uff0c\u9884\u6599\u8fc7\uff0c\u518d\u574f\u4e0d\u8fc7\u5c31\u662f\u90a3\u4e2a\u9b3c\u6837\u5b50\u4e86\uff0c\u53c8\u6709\u5565\u597d\u70e6\u607c\u7684\uff1f\u6211\u4e00\u4e2a\u540c\u5b66\uff0c\u5927\u5b66\u8054\u8003\u524d\u4e00\u76f4\u60f3\u8c61\u300c\u4e16\u754c\u4e00\u5b9a\u8981\u6bc1\u706d\uff0c\u8fd9\u8054\u8003\u5b9e\u5728\u592a\u75db\u82e6\u4e86\u300d\u3002\u6211\u8bf4\uff0c\u2026",
+      "id": 103993120,
+      "is_copyable": true,
+      "question": {
+        "author": {
+          "avatar_url": "http://pic2.zhimg.com/aadd7b895_s.jpg",
+          "headline": "",
+          "id": "0",
+          "name": "\u533f\u540d\u7528\u6237",
+          "type": "people",
+          "url": "",
+          "user_type": "people"
+        },
+        "id": 47037527,
+        "title": "\u4ee5\u4f4e\u8ff7\u7684\u72b6\u6001\u53c2\u52a0\u9ad8\u8003\u771f\u7684\u6ca1\u5173\u7cfb\u5417\uff1f\u5982\u679c\u6709\u8be5\u600e\u4e48\u529e\uff1f",
+        "type": "question",
+        "url": "https://api.zhihu.com/questions/47037527"
+      },
+      "thanks_count": 214,
+      "type": "answer",
+      "updated_time": 1464882681,
+      "url": "https://api.zhihu.com/answers/103993120",
+      "voteup_count": 898
+    },
+    "data": null
+  }
+}
