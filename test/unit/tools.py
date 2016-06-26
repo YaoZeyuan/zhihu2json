@@ -2,20 +2,16 @@
 from bs4 import BeautifulSoup
 
 
-def parse(content, selector, index=0):
+def parse(content):
     u"""
-    将字符串解析为BeautifulSoup对象
+    将字符串解析为BeautifulSoup对象,取测试文本中的第一个节点作为Tag进行返回
 
     :param content: 待解析文本内容
     :type content: str
-    :param selector: css选择器
-    :type selector: str
-    :param index: 目标元素为第几个元素
-    :type index: int
-    :rtype: BeautifulSoup
+    :rtype: bs4.Tag
     """
-    bs = BeautifulSoup(content, "html.parser")
-    dom = bs.select(selector)[index]
+    bs = BeautifulSoup(content, u"html.parser")
+    dom = bs.select(u"*")[0]
     return dom
 
 
@@ -28,5 +24,5 @@ def get_content(uri):
     :return: 文件内容
     :rtype:str
     """
-    content = open(uri, 'r').read()
+    content = open(uri, u'r').read()
     return content

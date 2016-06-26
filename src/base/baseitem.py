@@ -67,7 +67,7 @@ class BaseItem(object):
 
         if attr not in self.attr_dict:
             raise Exception(u"{}对象中没有{}属性".format(self.class_name, attr))
-        return self.attr_dict.get(attr, "")
+        return self.attr_dict.get(attr, u"")
 
     def get(self):
         return self.attr_dict

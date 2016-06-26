@@ -15,7 +15,8 @@ class zm_side_section_0(BaseItem):
 
     """
     def set_up(self):
-        _class = Tag.get_attr(self.node, "class")
-        is_followed = ("zg-btn-white" in _class)
-        self.__set_attr("is_followed", is_followed)
+        follow_button = self.node.select(u"a.zu-entry-focus-button")[0]
+        _class = Tag.get_attr(follow_button, u"class")
+        is_followed = (u"zg-btn-white" in _class)
+        self.set_attr(u"is_followed", is_followed)
         return
