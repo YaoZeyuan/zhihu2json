@@ -31,7 +31,7 @@ class CollectionTestCase(unittest.TestCase):
     def test_zh_fav_head_title(self):
         from src.block.collection.zh_fav_head_title import zh_fav_head_title
 
-        dom = self.get_dom(u"zh-fav-head-title.html")
+        dom = self.get_dom(u"zh-fav-head-title/title/笑点二代目.html")
         ob = zh_fav_head_title(dom)
         self.assertEqual(ob.get_attr(u"title"), u"""笑点二代目""")
         return
@@ -39,7 +39,7 @@ class CollectionTestCase(unittest.TestCase):
     def test_zm_side_section_0_has_followed(self):
         from src.block.collection.zm_side_section_0 import zm_side_section_0
 
-        dom = self.get_dom(u".zu-main-sidebar .zm-side-section[0]/is_followed_true.html")
+        dom = self.get_dom(u".zu-main-sidebar .zm-side-section[0]/is_followed/true.html")
         ob = zm_side_section_0(dom)
         self.assertEqual(ob.get_attr(u"is_followed"), True)
         return
@@ -47,7 +47,7 @@ class CollectionTestCase(unittest.TestCase):
     def test_zm_side_section_0_not_followed(self):
         from src.block.collection.zm_side_section_0 import zm_side_section_0
 
-        dom = self.get_dom(u".zu-main-sidebar .zm-side-section[0]/is_followed_false.html")
+        dom = self.get_dom(u".zu-main-sidebar .zm-side-section[0]/is_followed/false.html")
         ob = zm_side_section_0(dom)
         self.assertEqual(ob.get_attr(u"is_followed"), False)
         return
