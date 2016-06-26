@@ -52,7 +52,7 @@ class BaseItem(object):
         self.set_up()
         return
 
-    def __set_attr(self, name, value):
+    def set_attr(self, name, value):
         setattr(self, name, value)
         self.attr_dict[name] = value
         return
@@ -65,7 +65,7 @@ class BaseItem(object):
         :return string:
         """
 
-        if attr in self.attr_dict:
+        if attr not in self.attr_dict:
             raise Exception(u"{}对象中没有{}属性".format(self.class_name, attr))
         return self.attr_dict.get(attr, "")
 
