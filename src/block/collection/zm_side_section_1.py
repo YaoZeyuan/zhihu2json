@@ -104,6 +104,7 @@ class zm_side_section_1(BaseItem):
         u"""
         dom => don#zh-single-answer-author-info
         获取用户hash_id
+
         :param dom: 用户信息节点
         :type dom: bs4.Tag
         :return:
