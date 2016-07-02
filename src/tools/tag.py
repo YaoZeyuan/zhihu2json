@@ -32,7 +32,7 @@ class Tag(object):
         :param default_value: 当属性不存在时返回的默认值
         :type default_value: unicode
         :return: tag中的指定属性，不存在返回默认值
-        :rtype: str
+        :rtype: unicode
         """
         if tag is None:
             return default_value

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 
+from src.tools.calendar import Calendar
 from test.unit import tools
 from test.unit.config import Config
 
@@ -66,6 +67,18 @@ class CollectionTestCase(unittest.TestCase):
         self.assertEqual(ob.get_attr(u"name"), u"白色潜水艇")
         self.assertEqual(ob.get_attr(u"headline"), u"只唱情歌，看不见坦克。")
         self.assertEqual(ob.get_attr(u"hash_id"), u"a96e3a756f572465e62d75c801f2a717")
+
+        return
+
+    #   zm_side_section_2
+    def test_zm_side_section_2(self):
+        from src.block.collection.zm_side_section_2 import zm_side_section_2
+
+        dom = self.get_dom(u".zu-main-sidebar .zm-side-section[2]/target.html")
+        ob = zm_side_section_2(dom)
+        self.assertEqual(ob.get_attr(u"update_date"), Calendar.get_yesterday())
+        self.assertEqual(ob.get_attr(u"follower_count"), u"642")
+        self.assertEqual(ob.get_attr(u"collection_id"), u"90509528")
 
         return
 

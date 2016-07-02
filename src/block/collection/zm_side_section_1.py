@@ -41,8 +41,8 @@ class zm_side_section_1(BaseItem):
         dom => self.node
         获取用户头像地址
 
-        :return:link
-        :rtype: str
+        :return:
+        :rtype: None
         """
         dom = self.node.select(u"div.zm-side-section-inner a.zm-list-avatar-link")[0]
         img = dom.select(u".zm-list-avatar-medium")[0]
@@ -50,7 +50,7 @@ class zm_side_section_1(BaseItem):
         self.set_attr("raw_avatar", src)
         avatar = Match.format_avatar(src)
         self.set_attr("avatar", avatar)
-        return src
+        return
 
     def parse_creator_profile_id(self, dom):
         u"""
