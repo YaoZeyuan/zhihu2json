@@ -79,6 +79,18 @@ class Match(object):
         return Match.match_content("""(?<=people/)[^/'"]+""", raw_link)
 
     @staticmethod
+    def format_avatar(avatar_src):
+        u"""
+        去除知乎图片中的size参数
+        :type avatar_src:str
+        :rtype: str
+        """
+        # 知乎升级图片系统前，最短的图片md5长度为9位demo => https://pic3.zhimg.com/1dc4b5dd6_l.jpg
+        size_config = Match.match_content("""(?<=\w{9})_\w+(?=\.)""", avatar_src)
+        raw_src = avatar_src.replace(size_config, "")
+        return raw_src
+
+    @staticmethod
     def parse_date(date='1357-08-12'):
         u"""
         解析时间,解析失败返回字符串'1357-08-12'

@@ -10,6 +10,7 @@ class BaseItem(object):
         初始化节点
         初始化对象及属性值
         :param node:
+        :type node: bs4.Tag
         :return:
         """
         #   节点元素

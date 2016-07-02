@@ -10,8 +10,8 @@ class zm_side_section_0(BaseItem):
     :param self.is_followed:是否关注该收藏夹
     :type:boolean
     测试用例
-    True => resource/block/collection/.zu-main-sidebar .zm-side-section[0]_has_followed.html
-    False => resource/block/collection/.zu-main-sidebar .zm-side-section[0]_not_followed.html
+    True => resource/block/collection/.zu-main-sidebar .zm-side-section[0]/is_followed/true.html
+    False => resource/block/collection/.zu-main-sidebar .zm-side-section[0]/is_followed/false.html
     """
     def set_up(self):
         follow_button = self.node.select(u"a.zu-entry-focus-button")[0]

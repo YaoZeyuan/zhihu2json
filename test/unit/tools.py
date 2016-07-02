@@ -7,7 +7,7 @@ def parse(content):
     将字符串解析为BeautifulSoup对象,取测试文本中的第一个节点作为Tag进行返回
 
     :param content: 待解析文本内容
-    :type content: str
+    :type content: unicode
     :rtype: bs4.Tag
     """
     bs = BeautifulSoup(content, u"html.parser")
@@ -20,9 +20,9 @@ def get_content(uri):
     获取uri里的文件内容
 
     :param uri: 文件uri
-    :type uri: str
+    :type uri: unicode
     :return: 文件内容
-    :rtype:str
+    :rtype:unicode
     """
     content = open(uri, u'r').read()
     return content

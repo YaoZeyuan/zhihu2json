@@ -15,9 +15,9 @@ class CollectionTestCase(unittest.TestCase):
         封装tools操作，快速获取解析后的dom元素
 
         :param filename:文件名(base_path为默认值)
-        :type filename:str
+        :type filename:unicode
         :param base_path: 文件路径,不传则默认为self.base_path
-        :type base_path: str
+        :type base_path: unicode
         :return:解析后的dom元素
         :rtype:bs4.Tag
         """
@@ -28,6 +28,7 @@ class CollectionTestCase(unittest.TestCase):
         dom = tools.parse(content)
         return dom
 
+    #   zh_fav_head_title
     def test_zh_fav_head_title(self):
         from src.block.collection.zh_fav_head_title import zh_fav_head_title
 
@@ -36,6 +37,7 @@ class CollectionTestCase(unittest.TestCase):
         self.assertEqual(ob.get_attr(u"title"), u"""笑点二代目""")
         return
 
+    #   zm_side_section_0
     def test_zm_side_section_0_has_followed(self):
         from src.block.collection.zm_side_section_0 import zm_side_section_0
 
@@ -52,6 +54,20 @@ class CollectionTestCase(unittest.TestCase):
         self.assertEqual(ob.get_attr(u"is_followed"), False)
         return
 
+    #   zm_side_section_1
+    def test_zm_side_section_1(self):
+        from src.block.collection.zm_side_section_1 import zm_side_section_1
+
+        dom = self.get_dom(u".zu-main-sidebar .zm-side-section[1]/target.html")
+        ob = zm_side_section_1(dom)
+        self.assertEqual(ob.get_attr(u"raw_avatar"), u"https://pic2.zhimg.com/cee21b4f469311f5a30b44342dbe6481_m.jpg")
+        self.assertEqual(ob.get_attr(u"avatar"), u"https://pic2.zhimg.com/cee21b4f469311f5a30b44342dbe6481.jpg")
+        self.assertEqual(ob.get_attr(u"profile_id"), u"I9tm8")
+        self.assertEqual(ob.get_attr(u"name"), u"白色潜水艇")
+        self.assertEqual(ob.get_attr(u"headline"), u"只唱情歌，看不见坦克。")
+        self.assertEqual(ob.get_attr(u"hash_id"), u"a96e3a756f572465e62d75c801f2a717")
+
+        return
 
 if __name__ == '__main__':
     unittest.main()
